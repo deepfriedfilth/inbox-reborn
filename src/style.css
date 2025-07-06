@@ -1565,6 +1565,10 @@ div[aria-label="Hangouts"][role="complementary"] {
 	margin-right: 32px;
 	color: #404040 !important;
 }
+/* allows user-specified custom color labels/bundles */
+.bundle-wrapper .label-link[style="color: rgb(225, 227, 225)"] {
+	color: #404040 !important;
+}
 .bundle-wrapper.contains-unread .label-link,
 .bundle-wrapper .bundle-senders span.strong {
 	font-weight: 700;
@@ -1623,6 +1627,11 @@ div[aria-label="Hangouts"][role="complementary"] {
 	background-color: #444 !important;
 }
 
+/* allows user-specified custom color labels/bundles */
+.zA > .xY.bundle-image[style*="background-color: rgb(225, 227, 225)"] {
+	background-color: #444 !important;
+}
+
 .zA[bundlelabel^="Finance"] > .xY.bundle-image {
 	background-color: rgb(103, 159, 56) !important;
 }
@@ -1644,7 +1653,6 @@ div[aria-label="Hangouts"][role="complementary"] {
 	background-color: rgb(219, 68, 55) !important;
 }
 
-.zA[bundlelabel="Travel"] > span.oZ-x3,
 .zA[bundlelabel="Travel"] > span.oZ-x3 {
 	background-color: rgb(156, 39, 176) !important;
 }
@@ -1652,7 +1660,6 @@ div[aria-label="Hangouts"][role="complementary"] {
 .zA[bundlelabel="Updates"] > span.oZ-x3 {
 	background-color: rgb(255, 104, 57) !important;
 }
-
 
 .hide-important-markers {
 	display: none !important;
